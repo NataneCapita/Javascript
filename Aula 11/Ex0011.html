@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de identidade</title>
+</head>
+
+<body>
+    <H1>Sistema de identidade</H1>
+    <input type="text" name="país" id="país">
+    <input type="button" value="pesquisar"onclick=" pesquisar()">
+    <div id="res"></div>
+    <script>
+        function pesquisar (){
+            var país=window.document.queryselector('div#país')
+            var res=window.document.queryselector('div#res')
+            
+           if (país='Angola'){
+               res.innerHTML= `<p> voce e <strong>Angolano</strong> </p>`
+           } else{
+               res.innerHTML=`<p> voce e estrangeiro</p>`
+           }
+
+        }
+    </script>
+</body>
+</html>
