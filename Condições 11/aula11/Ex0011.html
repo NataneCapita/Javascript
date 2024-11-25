@@ -4,27 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema de identidade</title>
+    <style>
+      body{
+        font:normal;
+        background-color: brown;
+        color: white;
+      }
+    </style>
+
+    
 </head>
+
 
 <body>
 
   
-    <H1>Sistema de identidade</H1>
-    <input type="text" name="país" id="país">
-    <input type="button" value="pesquisar "
-   onclick="pesquisar()">
-   <div id="res"></div>
+    <h1 >Sistema de identidade</h1>
+    <h1 id="titulo">a vida</h1>
+    <p>Seu nome</p>
+    <h2>a vida nos</h2>
+    <p>nome do seu pai</p>
+    <p>norte sul</p>
+    <div id="msg">Dados familiares</div>
+
    <script>
-      function pesquisar (){
-        var país = document.querySelector('país')
-      var= document.querySelector('res')
-      }
-      if (país='Angola') {
-        res.innertext('Voce e Angolano')
-         
-      }else {
-        res.innertext('voce e estrangeiro')
-      }
+    var h1=document.getElementsByTagName('h1')[0] 
+    window.document.write(h1.innerText)
+    var d=document.querySelector('div#msg')
+    d.style.color='green'
+    
+     
+
+    
+
+  
+
 
    </script>
     

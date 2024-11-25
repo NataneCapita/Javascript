@@ -1,13 +1,8 @@
+var idade=18
 
-
-
-
-    let pais = 'Angola'
-    if (pais =='Angolano'){
-        console.log('Angolano')
-
-    }else{
-        console.log('Estrangeiro')
-    }
-
+if (idade <17){
+    console.log('nao vota')
+}else{
+    console.log('voto exigido')
+}
 

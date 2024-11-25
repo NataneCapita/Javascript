@@ -1,12 +1,14 @@
-const { vel } = require("./Exe008")
 
- var país='França'
-console.log(`vivendo ${país}`)
-if(país !='Brasil') {
-    console.log('voce e estrangeiro')
-} else {
-    console.log('voce e brasileiro ')    
-}
-if (vel > '40') {
-    console.log(`voce ultrapassou a velocidade permitida ,multado!`)
-}
+
+ var agora=new Date()
+ var hora=agora.getHours
+ console.log(`Agora Sao exatamente ${hora} horas`)
+ if(hora<=11){
+    console.log('bom dia')
+ }else if(hora<=17){
+    console.log('boa tarde')
+ }else if(hora<=23){
+    console.log('boa noite')
+ }else{
+    console.log('boa madrugada')
+ }
