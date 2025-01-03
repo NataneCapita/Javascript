@@ -1,0 +1,41 @@
+
+body{
+background-color: rgb(29, 29, 220);
+font-family: 15pt arial ;
+
+}
+header{
+    color: white;
+    text-align: center;
+
+
+
+}
+section{
+background-color: aliceblue;
+padding: 15px;
+border-radius: 6px;
+width: 500px;
+margin:auto;
+box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.265);
+}
+section #inic{
+    padding: 5px;
+}
+section #fim{
+    padding: 5px;
+}
+section #passo{
+    padding: 5px;
+}
+section #botao{
+    padding: 7px;
+}
+section #res{
+    padding: 7px;
+}
+footer{
+text-align: center;
+font-style: italic;
+
+}
